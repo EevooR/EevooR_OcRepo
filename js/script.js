@@ -184,6 +184,10 @@ const charData = {
     "name": "Corvus",
     "img": "0e4d4f99-4eb8-4e57-8067-229c340892b2_l",
     "link": "corvus-HrvJ5lN9?v=1" },
+  "Crent-Phoayl" : {
+    "name": "Crent",
+    "img": "32b98e47-103e-49d5-acfa-9e210104fb39_l",
+    "link": "crent-phoayl?v=1" },
   "Crome" : {
     "name": "Crome",
     "img": "08d19035-b336-4b48-8bf5-e63e7fd35cc3_l",
@@ -873,7 +877,33 @@ const charData = {
 
 
 }
-const alphabetized = ["Aayan","Ahiru","Ailith","Alainthine","Aléatoire","Aleph","Alexa","Alexander","Alpine","Alyx","Anarchy", "ANIMA","Anomy","Anthony","Aol","Aqua","Aria","Arzire","Atrun","Autumn","Bai","Ben","Betsumei","Blaze","Bleu","Blossom","Bones","Borracho","Búrka","Bоuка","Cal","Cam","Canary","Cante","Carbon","Cardinala","Carmen","Cealm","Celic","Challi","Chef","Chino-Ameno","Chris","Clare","Clutter","Corvus","Crome","Crystal","Cuisneoir","Currant","Daegente-Poatem","Dark-Soul","Dawn","Demitris","Denny","Destiny","Detto","Diago","Disarray","Drake","Dusk","Echo","Edel","Elena","Emerald","Emily-Emily","Ete","Etoile","Everest","Exemplium","Exse","Ezarin","Ezh","Fak","Felinu","Feuille","Ffej","Firinn","Flamme-Noire","Fresca","Frost","Frosta","Fuguai-Seishi","Gairn","Gale","Grover","Gyaku-Ameno","Harmon","Herz","Hiver","Hoshi-Chīsana","Hunter","Iceberg","Indago","Iota","Ira","Irret","Isekin","Issac","Jack","Jacob","Jameason","Jenny","Jiim","Junker","Kaden","Kai","Kat","Kate-Hunt","Kate-Johnson","Katlyn","Kattoni","Kazaru","King","Kivayos","Kobalt","Koe","Kolybel-Skaya","Kомму","Lan","Les","Light","Lilac","Mapébe","Marie","Mark","Mia","Micah","Michel","Micreathonn","Midknight","Mike","Miles","Minty-Drizzle","Minty-Flav","Minty-Fresh","Minty-Mint","Minty-Swirl","Mitte","Moira","Myka","Myron","Naf","Nako-and-Zennith","Nate","Nathan","Neidr","Nirin","Nisemono","Nova","Ocat","Orion","Pastellua","Peccrimae","Pepper","Pesak","Phantasma","Pheo","Polar","Prestan","Pumpkin","Puri","Purin","Quest","Rodge","Rose","Rosé","Roun","Rowan","Sacra","Saerus","Safir","Saleel","Scarlett","Scarlit","Senlin","Shado","Sharah","Shary","Sheri","Siegfried","Snarl","Solstice-D'été","Solstice-D'hiver","Stai","Stevie","Strawberry","Sunni","Synthony","Taevas","Taup","Terilynn","Thomas","Tind","Tiran","Tom","Tom-Tom","Tumult","Urinim","Veillance","Vella","Ver","Verdant","Vert","Viole","Viphon","Wallace","Xig","Yelim","Yellah","Yelley","Yellow","Yellup","Yín","Zane","Zoey"]
+const alphabetized = [
+  "Aayan","Ahiru","Ailith","Alainthine","Aléatoire","Aleph","Alexa","Alexander","Alpine","Alyx","Anarchy", "ANIMA","Anomy","Anthony","Aol","Aqua","Aria","Arzire","Atrun","Autumn",
+  "Bai","Ben","Betsumei","Blaze","Bleu","Blossom","Bones","Borracho","Búrka","Bоuка",
+  "Cal","Cam","Canary","Cante","Carbon","Cardinala","Carmen","Cealm","Celic","Challi","Chef","Chino-Ameno","Chris","Clare","Clutter","Corvus","Crent-Phoayl","Crome","Crystal","Cuisneoir","Currant",
+  "Daegente-Poatem","Dark-Soul","Dawn","Demitris","Denny","Destiny","Detto","Diago","Disarray","Drake","Dusk",
+  "Echo","Edel","Elena","Emerald","Emily-Emily","Ete","Etoile","Everest","Exemplium","Exse","Ezarin","Ezh",
+  "Fak","Felinu","Feuille","Ffej","Firinn","Flamme-Noire","Fresca","Frost","Frosta","Fuguai-Seishi",
+  "Gairn","Gale","Grover","Gyaku-Ameno",
+  "Harmon","Herz","Hiver","Hoshi-Chīsana","Hunter",
+  "Iceberg","Indago","Iota","Ira","Irret","Isekin","Issac",
+  "Jack","Jacob","Jameason","Jenny","Jiim","Junker",
+  "Kaden","Kai","Kat","Kate-Hunt","Kate-Johnson","Katlyn","Kattoni","Kazaru","King","Kivayos","Kobalt","Koe","Kolybel-Skaya","Kомму",
+  "Lan","Les","Light","Lilac",
+  "Mapébe","Marie","Mark","Mia","Micah","Michel","Micreathonn","Midknight","Mike","Miles","Minty-Drizzle","Minty-Flav","Minty-Fresh","Minty-Mint","Minty-Swirl","Mitte","Moira","Myka","Myron",
+  "Naf","Nako-and-Zennith","Nate","Nathan","Neidr","Nirin","Nisemono","Nova",
+  "Ocat","Orion",
+  "Pastellua","Peccrimae","Pepper","Pesak","Phantasma","Pheo","Polar","Prestan","Pumpkin","Puri","Purin",
+  "Quest",
+  "Rodge","Rose","Rosé","Roun","Rowan",
+  "Sacra","Saerus","Safir","Saleel","Scarlett","Scarlit","Senlin","Shado","Sharah","Shary","Sheri","Siegfried","Snarl","Solstice-D'été","Solstice-D'hiver","Stai","Stevie","Strawberry","Sunni","Synthony",
+  "Taevas","Taup","Terilynn","Thomas","Tind","Tiran","Tom","Tom-Tom","Tumult",
+  "Urinim",
+  "Veillance","Vella","Ver","Verdant","Vert","Viole","Viphon",
+  "Wallace",
+  "Xig",
+  "Yelim","Yellah","Yelley","Yellow","Yellup","Yín",
+  "Zane","Zoey"]
 
 const container = document.querySelector('#container')
 
