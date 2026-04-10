@@ -64,3 +64,22 @@ figcaption {
 
   color: white;
 }
+
+#Filters{
+  height: 5em;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+#Filters button, #Filters img{
+  width: 5em;
+  max-height: 5em;
+}
+
+.gendbutton {
+  background: #00000000;
+  border-color: #00000000;
+  border-width: 0px;
+  outline-width: 0px;
+  outline-color: #00000000;
+}
