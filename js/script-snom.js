@@ -202,12 +202,12 @@ function sexchange(sex) {
 
 
 
-function comeout() {
+function comeout(gay) {
   container.innerHTML = ""
   if (sexuality.value != "null") {
     appearanceValue = appearances[sexuality.value]
     for (var char in charData) {
-      if (charData[char][appearanceValue] == true) {
+      if (charData[char][appearanceValue] == gay) {
         place(char)
       }
     }

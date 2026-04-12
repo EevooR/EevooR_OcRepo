@@ -19,7 +19,9 @@
       <nav>
         <a href="index.html">Home</a>
         <p> | </p>
-        <a href="charlist">List</a>
+        <a href="charlist.html">List</a>
+        <p> | </p>
+        <a href="charlist-snom.html">(temp) Snom Archives</a>
       </nav>
     </header>
     <nav id="Filters">
@@ -44,7 +46,8 @@
         <option value="Split Realms">Split Realms</option>
 
       </select>
-      <button type="button" name="button" onclick="comeout()">Submit</button>
+      <button type="button" name="button" onclick="comeout(true)">Submit</button>
+      <button type="button" name="button" style="background: black; color:white;" onclick="comeout(false)">Inverse Submit</button>
 
 
     </nav>
