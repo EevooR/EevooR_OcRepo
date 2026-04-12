@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Enzo Alexander">
+    <meta name="description" content="A Webpage for Eevoo_R's Ocs">
+    <meta name="keywords" content="Ocs, interactive">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eevoo_R OC Repo - snom archives</title>
+    <link rel="shortcut icon" href="https://cdn.characterhub.com/users/98a94e48-cff2-439d-841a-d72607328308/7fde1b22-2d71-4745-9743-25da478e7ed3_l">
+    <link rel="stylesheet" href="css/clist.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>Eevoo_R OC Repository - Snom Archives</h1>
+      <h2>Character list</h2>
+      <nav>
+        <a href="index.html">Home</a>
+        <p> | </p>
+        <a href="charlist">List</a>
+      </nav>
+    </header>
+    <nav id="Filters">
+      <button type="button" name="button" class="gendbutton">
+        <img src="assets/m.png" alt="Male" title="Male" onclick="sexchange('M')">
+      </button>
+      <button type="button" name="button" class="gendbutton">
+        <img src="assets/f.png" alt="Female" title="Female" onclick="sexchange('F')">
+      </button>
+      <button type="button" name="button" class="gendbutton">
+        <img src="assets/n.png" alt="Non-Binary" title="Non-Binary" onclick="sexchange('N')">
+      </button>
+      <p>|</p>
+      <label for="Sexuality">Appearances</label>
+      <select class="" name="Sexuality" id="sexuality">
+        <option value="null"></option>
+        <option value="Has Content">Has Content</option>
+        <option value="Written Season">Written Season</option>
+        <option value="Written Season (Excluding SR)">Written Season (Excluding SR)</option>
+        <option value="Roleplay Season">Roleplay Season</option>
+        <option value="RTV Season">RTV Season</option>
+        <option value="Split Realms">Split Realms</option>
+
+      </select>
+      <button type="button" name="button" onclick="comeout()">Submit</button>
+
+
+    </nav>
+
+    <main>
+      <div id="container">
+
+      </div>
+    </main>
+
+
+    <footer></footer>
+
+    <script src="js/script-snom.js" charset="utf-8"></script>
+  </body>
+</html>
